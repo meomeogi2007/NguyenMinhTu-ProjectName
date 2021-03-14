@@ -5,10 +5,10 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    cursor: url(./Pictures/CustomCursorDefault.png), default;
+    cursor: url(../image/CustomCursorDefault.png), default;
 }
 a{
-    cursor: url(./Pictures/CustomCursorLink.png) ,default;
+    cursor: url(../image/CustomCursorLink.png) ,default;
     color: white;
 }
 a:hover{
@@ -158,4 +158,30 @@ a:hover{
     width: 100%;
     height: 1000px;
     background-color: #1d1e1f;
+}
+#bridger2{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#addNewPage{
+    display: flex;
+    font-size: 14px;
+    width: 140px;
+    height: 24px;
+    border-radius: 3px;
+    border: white 5px solid;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+#page-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+#addNewPage:hover{
+    border: red 5px solid;
 }
