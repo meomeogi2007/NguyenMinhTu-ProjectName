@@ -182,7 +182,7 @@ a:hover{
 }
 #main{
     width: 100%;
-    height: 1900px;
+    height: auto;
     background-color: #1d1e1f;
 }
 #main-head{
@@ -269,10 +269,46 @@ a:hover{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
-#introduction-pic{
+#mySlideShow{
     width: 100%;
-    height: 380px;
-    text-align: center;
+    height: 390px;
+    position: relative;
+}
+.mySlides{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.MyButtonLeft{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    background-color: gray;
+    position: absolute;
+    border: 1px black solid;
+    border-radius: 20px;
+    top: calc(50% - 5px);
+    transition: 1s;
+}
+.MyButtonRight{
+    right: 0;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: gray;
+    border: 1px black solid;
+    border-radius: 20px;
+    top: calc(50% - 5px);
+    transition: 1s;
+}
+.MyButtonLeft:hover{
+    cursor: pointer;
+    color: red;
+}
+.MyButtonRight:hover{
+    cursor: pointer;
+    color: red;
 }
 #the-articles{
     padding: 5px;
@@ -337,4 +373,8 @@ a:hover{
     font-size: 20px;
     justify-content: center;
     align-items: center;
+}
+#footer{
+    background-color: black;
+    border-top: 1px white solid;
 }
