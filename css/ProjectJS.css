@@ -283,12 +283,14 @@ a:hover{
     width: 30px;
     height: 30px;
     margin-left: 5px;
-    background-color: gray;
+    background-color: black;
     position: absolute;
     border: 1px black solid;
     border-radius: 20px;
     top: calc(50% - 5px);
     transition: 1s;
+    color: white;
+    display: none;
 }
 .MyButtonRight{
     right: 0;
@@ -296,11 +298,13 @@ a:hover{
     width: 30px;
     height: 30px;
     margin-right: 5px;
-    background-color: gray;
+    background-color: black;
     border: 1px black solid;
     border-radius: 20px;
     top: calc(50% - 5px);
     transition: 1s;
+    color: white;
+    display: none;
 }
 .MyButtonLeft:hover{
     cursor: pointer;
@@ -309,6 +313,12 @@ a:hover{
 .MyButtonRight:hover{
     cursor: pointer;
     color: red;
+}
+#mySlideShow:hover > .MyButtonLeft{
+    display: block;
+}
+#mySlideShow:hover > .MyButtonRight{
+    display: block;
 }
 #the-articles{
     padding: 5px;
