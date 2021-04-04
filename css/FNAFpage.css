@@ -19,13 +19,111 @@
 }
 #addition1{
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     background-color: #1d1e1f;
 }
 .picture-frame{
     margin-top: 10px;
-    width: 100%;
+    width: 80%;
     height: auto;
     position: relative;
+    border: 1px black solid;
 }
-.
+.main-picture{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+}
+.main-tagline{
+    position: absolute;
+    width: auto;
+    height: auto;
+    color: red;
+    right: 6px;
+    top: 430px;
+}
+#bridger9{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addition2{
+    margin-top: 480px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+#bridger10{
+    width: 60%;
+    height: auto;
+    border: 2px white solid;
+    border-radius: 7px;
+}
+#attachments{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+#left-side{
+    width: 50%;
+    height: 350px;
+    border: black 2px solid;
+}
+#bridger11{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right-side{
+    width: 50%;
+    height: 350px;
+    border: black 2px solid;
+}
+#introduction2{
+    padding: 8px;
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#bridger12{
+    width: 75%;
+    height: auto;
+    border: 2px white solid;
+    border-radius: 7px;
+}
+.neat-header{
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 97%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px white solid;
+}
+.audio-container{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+audio{
+    margin-top: 10px;
+}
+.bridger13{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+.introduction3{
+    width: 80%;
+    height: auto;
+}
