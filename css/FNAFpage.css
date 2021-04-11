@@ -184,7 +184,6 @@ audio{
 }
 .animatronics-pic{
     width: 90%;
-    height: 320px;
 }
 .intro-words{
     width: 100%;
@@ -215,4 +214,19 @@ audio{
     width: 80%;
     margin-left: calc(10%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.character-tagline{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+.tagline-credit{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+    font-size: 10px;
+    color: gray;
 }
