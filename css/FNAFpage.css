@@ -230,3 +230,11 @@ audio{
     font-size: 10px;
     color: gray;
 }
+#container5{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.left-nice-container1{
+    width: 75%;
+}
